@@ -7,13 +7,6 @@
 
 
 }
-/*
-
-body{
-    background: #1f242d;
-    color: #fff;
-}
-*/
 body{
     overflow-x: hidden;
 }
@@ -200,38 +193,40 @@ section>h3 {
 
 }
 .home-content h5 {
+    position: relative;
     font-size: 20px;
     font-weight: 200;
-    padding-right: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 .home-content h3:nth-of-type(2) {
     margin-bottom: 30px;
 }
 .home-content p{
+    position: relative;
     font-size: 18px;
     font-weight: 500;
     padding-top: 30px;
-    padding-left: 10px;
+    padding-left: 19px;
 }
 
 #role{
     color: #66ff00;
 }
 .btn1{
-    display: inline-block;
-    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
     height: 50px;
-    background: midnightblue;
+    background-color: green;
+    color: white;
     text-decoration: none;
-    border-radius: 20px;
-    font-size: 16px;
-    color: #eeebeb;
-    letter-spacing: 1px;
-    font-weight: 600;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 1s;
-    padding-left: 100px;
-
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    left: 15px;
+    cursor: pointer ;
 }
 .btn:hover{
     box-shadow: 0 0 10px midnightblue;
@@ -596,11 +591,3 @@ form .btn2{
     margin-top: -40px;
     display: block;
 }
-
-
-
-
-
-
-
-

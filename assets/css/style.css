@@ -7,7 +7,11 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
-/*#f75023*/
+hr {
+    height: 3px;
+    background-color: black;
+    border: #0ef;
+}
 :root{
     --bg-color: #ffffff;
     --text-color: #000;
@@ -201,10 +205,10 @@ span{
     width: 540px;
     height: auto;
 }
-.about-text h2{
+.about-text h3{
     font-size: var(--h2-font);
     font-weight: 500;
-    margin: 8px 0px 25px;
+    margin: 8px 0px 65px;
     line-height: 1.1;
 }
 .about-text h3{
@@ -324,13 +328,13 @@ span{
     cursor: pointer;
 }
 .one{
-    background: #baebcd;
+    background: #6bea98;
 }
 .two{
-    background: #D9D1FA;
+    background: #b7a9ff;
 }
 .three{
-    background: #faedce;
+    background: #fcd3ab;
 }
 .wrap h3{
     font-size: 24px;
@@ -340,6 +344,87 @@ span{
 .wrap p{
     font-size: var(--p-font);
 }
+/*-------------------galary-------------------------*/
+.hi-slide {
+    position: relative;
+    width: 754px;
+    height: 292px;
+    border-radius: 50px;
+    margin: 115px auto 0;
+}
+.hi-next,
+    .hi-prev {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #a09dab;
+    color: white;
+    transition: all 0.7s;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.hi-next:hover,
+.hi-prev:hover {
+    opacity: 1;
+    background-color: #e91e63;
+}
+
+.hi-slide .hi-prev {
+    left: -69px;
+}
+
+.hi-slide .hi-prev::before {
+    content: '<';
+}
+
+.hi-slide .hi-next {
+    right: -69px;
+}
+
+.hi-slide .hi-next::before {
+    content: '>';
+}
+
+.hi-slide>ul {
+    list-style: none;
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 0;
+    padding: 0;
+}
+
+.hi-slide>ul>li {
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377px;
+    top: 147px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: #333;
+}
+
+.hi-slide>ul>li>img {
+    width: 100%;
+    height: 100%;
+    background-position: center  ;
+}
+
+
+
 /*-------------contact----------------------*/
 * {
     margin: 0;
@@ -456,5 +541,99 @@ span{
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+}
+
+@media (max-width: 1425px){
+    header{
+        padding: 16px 3%;
+        transition: .3s;
+    }
+    header.sticky{
+        padding: 10px 3%;
+        transition: .3s;
+    }
+    section{
+        padding: 70px 3%;
+        transition: .3s;
+    }
+    .contact{
+        width: 95%;
+        transition: .3s;
+    }
+    :root{
+        --big-font: 4rem;
+        --h2-font: 2.3rem;
+        --p-font: 1rem;
+        transition: .3s;
+    }
+}
+
+@media (max-width: 970px){
+    #menu-icon{
+        display: block;
+    }
+    .home{
+        min-height: 80vh;
+    }
+    .navlist{
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--main-color);
+        text-align: right;
+        transition: all .40s;
+    }
+    .navlist a{
+        display: block;
+        padding: 1.2rem;
+        margin: 1.5rem;
+        border-right: 2px solid var(--bg-color);
+        color: var(--bg-color);
+    }
+    .navlist a:hover{
+        background: var(--bg-color);
+        color: var(--main-color);
+    }
+    .navlist a::after{
+        display: none;
+    }
+    .navlist.active{
+        top: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .home{
+        grid-template-columns: 1fr;
+        min-height: 130vh;
+        grid-gap: 1rem;
+    }
+    .home-text{
+        padding-top: 55px;
+    }
+    .home-img{
+        text-align: center;
+    }
+    .home-img img{
+        width: 440px;
+        height: auto;
+    }
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    :root{
+        --big-font: 3.4rem;
+        --h2-font: 2rem;
+    }
+    section{
+        padding: 65px 3%;
+        transition: .3s;
+    }
 }
 

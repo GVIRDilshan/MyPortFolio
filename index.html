@@ -12,6 +12,8 @@
     <link rel="stylesheet"
           href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -29,18 +31,21 @@
     </ul>
 </header>
 
+
+
+
 <!---------------------home----------------->
 <section class="home" id="home">
     <div class="home-text">
-        <h3>Hello, I'm</h3>
-        <h2> Ishan Ravidu</h2>
-        <h3> Professional<span id="role">  Full-stack Developer</span> </h3>
+        <h3 data-aos="fade-down-right">Hello, I'm</h3>
+        <h2 data-aos="fade-down-right"> Ishan Ravidu</h2>
+        <h3 data-aos="fade-down-right"> Professional<span id="role">  Full-stack Developer</span> </h3>
 
-        <p> i’m a Full Stack Deleloper in Sri Lanka and very passionate  and dedicated to my work</p>
+        <p data-aos="fade-down-right"> i’m a Full Stack Deleloper in Sri Lanka and very passionate  and dedicated to my work</p>
 
-        <a href="#" class="btn">Download CV</a>
+        <a href="#" class="btn" data-aos="flip-left">Download CV</a>
 
-        <div class="social">
+        <div class="social" data-aos="fade-up">
             <ul class="wrapper">
                 <li class="icon facebook">
                     <span class="tooltip">Facebook</span>
@@ -76,11 +81,11 @@
     <center><h2 style="font-size: 40px" >AboutMe</h2></center>-->
     <h4 class="center-subtopic">BIOGRAPHY</h4>
 
-    <div class="div-wrapper">
-        <div class="card">
+    <div class="div-wrapper" >
+        <div class="card1" data-aos="fade-up-right">
             <div class="lines">
             </div>
-            <div class="content">
+            <div class="content" >
                 <div class="card-img">
                     <img src="assets/gallery/About_me.png" alt="hero">
                 </div>
@@ -88,19 +93,19 @@
         </div>
 
         <div class="right-div">
-            <h1>Who am I <span class="cyan">?</span><br>
+            <h1 data-aos="zoom-out">Who am I <span class="cyan">?</span><br>
                 <div class="first-line"></div>
                 <div class="second-line"></div>
             </h1>
 
 
-            <p>As a passionate software engineering student, I specialize in Java and am constantly seeking opportunities to expand
+            <p data-aos="zoom-out-left">As a passionate software engineering student, I specialize in Java and am constantly seeking opportunities to expand
                 my knowledge and skills. With a commitment to using technology to make a positive impact on society, I believe in pushing
                 myself to grow and improve as a developer. Whether you're interested in collaborating on a project or discussing the latest
                 trends in software engineering, I'm always up for a challenge and excited to connect with like-minded professionals.
             </p>
 
-            <div class="tab-titles">
+            <div class="tab-titles" data-aos="zoom-out-left">
                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                 <p class="tab-links" onclick="opentab('experience')">Experience</p>
                 <p class="tab-links" onclick="opentab('education')">Education</p>
@@ -108,7 +113,7 @@
 
             </div>
 
-            <div class="tab-contents active-tab" id="skills">
+            <div class="tab-contents active-tab" id="skills" data-aos="fade-up">
                 <ul>
                     <li><span>Stand-alone</span><br>Java</li>
                     <li><span>Database</span><br>My-SQL</li>
@@ -144,27 +149,27 @@
 <!--////////////////////////////////////Projects/////////////////////////////////-->
 <section class="portfolio" id="portfolio">
     <div class="heading">
-        <h3>My Amazing Projects</h3>
+        <h3 data-aos="zoom-out">My Amazing Projects</h3>
     </div>
 
     <div class="portfolio-content">
-        <div class="col">
-            <img src="assets/img/login_-_fitness_management.png">
+        <div class="col" data-aos="fade-right">
+            <img src="assets/img/library_pic.jpg">
             <div class="layer">
                 <h3>Web Design</h3>
                 <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
             </div>
         </div>
 
-        <div class="col">
-            <img src="assets/img/student-login-form.jpg">
+        <div class="col" data-aos="fade-left">
+            <img src="assets/img/Aqu.jpg">
             <div class="layer">
                 <h3>Web Design</h3>
                 <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
             </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="fade-right">
             <img src="assets/img/login_-_fitness_management.png">
             <div class="layer">
                 <h3>Animated Profile card</h3>
@@ -172,7 +177,7 @@
             </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="fade-left">
             <img src="assets/img/student-login-form.jpg">
             <div class="layer">
                 <h3>Animated Profile card</h3>
@@ -180,7 +185,7 @@
             </div>
         </div>
 
-        <div class="col">
+<!--        <div class="col" data-aos="fade-right">
             <img src="assets/img/login_-_fitness_management.png">
             <div class="layer">
                 <h3>Animated Profile card</h3>
@@ -188,19 +193,68 @@
             </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="fade-left">
             <img src="assets/img/student-login-form.jpg">
             <div class="layer">
                 <h3>Animated Profile card</h3>
                 <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
             </div>
-        </div>
+        </div>-->
 
     </div>
 </section>
 <!--------------------------Assignments-------------------->
 <section class="Assignments" id="Assignments">
 
+    <h3 data-aos="zoom-out" class="Assignments_text">My Assignments</h3>
+
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <i class="fab fa-windows"></i>
+                    <h3>Windows</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <a href="#" type="button">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <i class="fab fa-android"></i><h3>Android</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <a href="#" type="button">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <i class="fab fa-apple"></i>
+                    <h3>Apple</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <a href="#" type="button">Read More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </section>
 <!------------------------Galary---------------------------->
 <center><h1 class="gallery_hedNAme">Gallery</h1></center>
@@ -290,12 +344,15 @@
 
 </section>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <script src="assets/js/jquery.hislide.js"></script>
 <script>
     $('.slide').hiSlide();
 </script>
-
+<script>
+    AOS.init();
+</script>
 <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

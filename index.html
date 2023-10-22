@@ -14,9 +14,6 @@
 
 </head>
 <body>
-<div id="scroll">
-    <a href="#" id="scroll-value">&#x1F815;</a>
-</div>
 
 <header>
     <a href="#" class="logo"><img src="assets/img/IR2.png"></a>
@@ -46,23 +43,23 @@
             <ul class="wrapper">
                 <li class="icon facebook">
                     <span class="tooltip">Facebook</span>
-                    <span><i class='bx bxl-facebook'></i></span>
+                    <span style="color: white"><i class='bx bxl-facebook'></i></span>
                 </li>
                 <li class="icon twitter">
                     <span class="tooltip">Twitter</span>
-                    <span><i class='bx bxl-twitter' ></i></span>
+                    <span style="color: white"><i class='bx bxl-twitter' ></i></span>
                 </li>
                 <li class="icon instagram">
                     <span class="tooltip">Instagram</span>
-                    <span><i class='bx bxl-instagram' ></i></span>
+                    <span style="color: white"><i class='bx bxl-instagram' ></i></span>
                 </li>
                 <li class="icon github">
                     <span class="tooltip">Github</span>
-                    <span><i class='bx bxl-github' ></i></span>
+                    <span style="color: white"><i class='bx bxl-github' ></i></span>
                 </li>
                 <li class="icon youtube">
-                    <span class="tooltip">Youtube</span>
-                    <span><i class="fab fa-youtube"></i></span>
+                    <span class="tooltip">Linkedin</span>
+                    <span style="color: white"  ><i class='bx bxl-linkedin'></i></span>
                 </li>
             </ul>
         </div>
@@ -75,67 +72,73 @@
 <br>
 <!--//////////////////////////////////////AboutMe//////////////////////////////////////-->
 
-<center><h1 id="AboutMe">AboutMe</h1></center>
+<div id="aboutMe">
+    <center><h1 >AboutMe</h1></center>
+    <h4 class="center-subtopic">BIOGRAPHY</h4>
 
-<section class="about" id="about">
-    <div class="about-img">
-        <img src="assets/img/IR2.png   ">
+    <div class="div-wrapper">
+        <div class="card">
+            <div class="lines">
+            </div>
+            <div class="content">
+                <div class="card-img">
+                    <img src="assets/gallery/About_me.png" alt="hero">
+                </div>
+            </div>
+        </div>
+
+        <div class="right-div">
+            <h1>Who am I <span class="cyan">?</span><br>
+                <div class="first-line"></div>
+                <div class="second-line"></div>
+            </h1>
+
+
+            <p>As a passionate software engineering student, I specialize in Java and am constantly seeking opportunities to expand
+                my knowledge and skills. With a commitment to using technology to make a positive impact on society, I believe in pushing
+                myself to grow and improve as a developer. Whether you're interested in collaborating on a project or discussing the latest
+                trends in software engineering, I'm always up for a challenge and excited to connect with like-minded professionals.
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('sports')">Sports</p>
+
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Stand-alone</span><br>Java</li>
+                    <li><span>Database</span><br>My-SQL</li>
+                    <li><span>Web-development</span><br>Html / css / JavaScript</li>
+                    <li><span>Designing</span><br>Photoshop / illustrator / Lightroom / Ae</li>
+                    <li><span>Editing</span><br>Blender / Premeire-Pro / Flash / Figma / canva</li>
+                    <li><span>Game-dev</span><br>unreal-engine</li>
+                </ul>
+            </div>
+            <div class="tab-contents " id="experience">
+                <ul>
+                    <li><span>2021 - Current</span><br>Dummy Data</li>
+
+                </ul>
+            </div>
+            <div class="tab-contents  " id="education">
+                <ul>
+                    <li><span>2021</span><br>Awarded Colours for GCE A/L's (Taxila Central College Horana).</li>
+                    <li><span>2019</span><br>Completed CERTIFICATE OF COMPUTER APPLICATIONS in Adobe Photoshop and Adobe Flash from NIE's Computer Department.</li>
+                    <li><span>2018-2020</span><br>Served as Senior Prefect Guide at Dhamma school.</li>
+                    <li><span>2018</span><br>Awarded Colours for GCE O/L's (Bandaragama Central College).</li>
+                    <li><span>2017-2018</span><br>Served as Senior Prefect Guide at Bandaragama Central College.</li>
+                    <li><span>2013-2015</span><br>Completed Pan America GojuRyu Karatedo Systems Diploma as a 1<sup>st</sup> Dan Black Belt.</li>
+                    <li><span>2012</span><br>Completed a NIE Computer Department course leading to a Certificate of Computer Applications, covering Paint, Word, Excel, PowerPoint, Access, Internet & Email.</li>
+                    <li><span>2012</span><br>Awarded Colours for grade 5 Scholars(Bandaragama Central College).</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    <div class="about-text">
-        <h3>I'm a Designer</h3>
-        <p> As a passionate software engineering student, I specialize in Java and am constantly seeking opportunities to expand my knowledge and skills. With a commitment to using technology to make a positive impact on society, I believe in pushing myself to grow and improve as a developer. Whether you're interested in collaborating on a project or discussing the latest trends in software engineering, I'm always up for a challenge and excited to connect with like-minded professionals.</p>
-    </div>
-    <div class="tab-titles">
-        <p class="tab-links active-link" >Skills</p>
-        <p class="tab-links" >Education</p>
-    </div>
-    <div class="tab-contents active-tab" id="skills">
-        <ul>
-            <li><span>JAVA</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, aperiam dolorem est et provident qui reiciendis rerum? Cumque eum hic id ipsum necessitatibus nisi saepe, sed soluta tempore vitae voluptatibus!</li>
-            <li><span>PYTHON</span> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum doloremque ducimus earum, eum laborum magni officia praesentium quaerat repellendus ullam. Consequuntur libero nesciunt nisi officia perspiciatis possimus ratione vero voluptates!</li>
-            <li><span>HTML</span><br>WEB</li>
-        </ul>
-    </div>
-    <div class="tab-contents" id="education">
-        <section>
-            <center>
-                <h3 id="h1">Software Engineering Degree</h3>
-                <h5>2024 - 2025</h5>
-                <img src="https://www.ijse.lk/images/logos/ijse.png" title="ijse" alt="ijse" width="100">
-                <p>Institue in Java Software Engineering</p>
-                <br>
-                <br>
-            </center>
-
-            <center>
-                <h3 id="h2">Graduate Diploma in Software Engineering</h3>
-                <h5>2022 - 2024</h5>
-                <img src="https://www.ijse.lk/images/logos/ijse.png" title="ijse" alt="ijse" width="100">
-                <p>Institue in Java Software Engineering</p>
-                <br>
-                <br>
-            </center>
-
-            <center>
-                <h3 id="h3">G.C.E Advanced Level Examination</h3>
-                <h5>2019 - 2022</h5>
-                <p>BNS</p>
-                <br>
-                <br>
-            </center>
-
-            <center>
-                <h3 id="h4">G.C.E Ordinary Level Examination</h3>
-                <h5>2007 - 2018</h5>
-                <p>BNS</p>
-                <br>
-                <br>
-            </center>
-
-        </section>
-    </div>
-</section>
 <hr>
 <!--////////////////////////////////////Projects/////////////////////////////////-->
 <center><h1 id="Projects">Projects</h1></center>

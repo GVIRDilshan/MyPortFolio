@@ -16,7 +16,7 @@ hr {
     --bg-color: #ffffff;
     --text-color: #000;
     --secound-color: #a09dab;
-    --main-color: #c31432;
+    --main-color: #a11e38;
     --big-font: 5.5rem;
     --h2-font: 3rem;
     --p-font: 1.6rem;
@@ -148,7 +148,10 @@ span{
     margin-top: 20px;
 }
 .home-img img {
-
+    position: absolute;
+    width: 650px;
+    height: 800px;
+    bottom: 2px;
 }
 /*-------------sosial-----------------*/
 .social {
@@ -272,17 +275,13 @@ span{
     border: 2px solid var(--main-color);
     color: var(--bg-color);
 }
-.home-img img{
-    max-width: 100%;
-    width: 540px;
-    height: auto;
-}
 
 
 /*-----------abot-----------*/
 #aboutMe {
     position: relative;
     background: url("../img/background1.png");
+    bottom: 50px;
 }
 .aboutMe{
     position: relative;
@@ -600,7 +599,7 @@ span{
 
 
 
-
+/*--------------------Projects--------------------*/
 
 .heading{
     text-align: center;
@@ -613,8 +612,9 @@ span{
 }
 .heading h3{
     color: var(--main-color);
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 90px;
+    font-weight: 700;
+    top: 90px;
 }
 .heading p{
     font-size: var(--p-font);
@@ -623,7 +623,7 @@ span{
 }
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(550px, auto));
     grid-gap: 2rem;
     align-items: center;
     margin-top: 5rem;
@@ -722,6 +722,10 @@ span{
     font-size: var(--p-font);
 }
 /*-------------------galary-------------------------*/
+.gallery_hedNAme {
+    font-size: 100px;
+    color: #9a1616;
+}
 .gallery {
     position: relative;
     display: grid;

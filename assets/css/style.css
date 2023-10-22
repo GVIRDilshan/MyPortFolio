@@ -147,6 +147,9 @@ span{
     margin-bottom: 40px;
     margin-top: 20px;
 }
+.home-img img {
+
+}
 /*-------------sosial-----------------*/
 .social {
     margin-top: 70px;
@@ -277,9 +280,14 @@ span{
 
 
 /*-----------abot-----------*/
+#aboutMe {
+    position: relative;
+    background: url("../img/background1.png");
+}
 .aboutMe{
     position: relative;
     z-index: 10;
+
 }
 .center-subtopic{
     text-align: center;
@@ -303,20 +311,18 @@ span{
     justify-content: space-between;
     align-items: center;
 }
-.card
-{
+.card   {
     position: relative;
     width: fit-content;
     height: fit-content;
     margin-right: 100px;
     background: transparent;
-    box-shadow: 0 25px 15px rgba(255, 0, 0, 0.3);
+    box-shadow: 0 15px 45px rgb(246, 11, 46);
 }
-.card .lines
-{
+.card .lines {
     position: absolute;
     inset: 0;
-    background: #d55454;
+    background: #b48181;
     overflow: hidden;
 }
 /*.card .lines::before
@@ -328,8 +334,8 @@ span{
     transform: translate(-50%,-50%);
     width: 1000px;
     height: 120px;
-    background: linear-gradient(transparent,#45f3ff,#45f3ff,#45f3ff,transparent);
-    animation: animate 4s linear infinite;
+    background: linear-gradient(transparent, #e645ff, #481e5d, #ff45f6,transparent);
+    animation: animate 2s linear infinite;
 }*/
 @keyframes animate
 {
@@ -346,7 +352,7 @@ span{
     content: '';
     position: absolute;
     inset: 3px;
-    background: #141518;
+    background: #e7d0d0;
 }
 .card-img{
     width: 400px;
@@ -356,15 +362,18 @@ span{
     align-items: center;
 }
 .card-img img{
-    height: 600px;
+    height: 800px;
     width: auto;
     position: absolute;
-    top: -103px;
+    top: -304px;
+    left: -120px;
     transition: height 0.3s ease, transform 0.3s ease;
 }
 .right-div>h1{
     position: relative;
-    font-size: 75px;
+    font-size: 85px;
+    right: 90px;
+    bottom: 40px;
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -375,7 +384,7 @@ span{
     margin: auto;
     width: 85px;
     height: 5px;
-    background-color: #0ef;
+    background-color: #ff0000;
 }
 .second-line{
     position: absolute;
@@ -384,11 +393,14 @@ span{
     margin: auto;
     width: 10px;
     height: 5px;
-    background-color: #0ef;
+    background-color: #d25a68;
 }
 .tab-titles{
     z-index: 10;
     display: flex;
+}
+.tab-titles p {
+    font-size: 25px;
 }
 .tab-links{
     z-index: 10;
@@ -402,7 +414,7 @@ span{
     content: '';
     width: 0;
     height: 3px;
-    background: #0ef;
+    background: #ff2600;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -416,7 +428,7 @@ span{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #0ef;
+    color: #c42009;
     font-size: 14px;
 }
 .tab-contents{
@@ -428,11 +440,15 @@ span{
 }
 .right-div>p{
     position: relative;
+    font-size: var(--p-font);
+    color: var(--secound-color);
     margin-top: 50px;
     line-height: 25px;
     font-weight: 400;
 }
-
+#skills ul li {
+    font-size: 20px;
+}
 /* ------------------Services------------------- */
 #services{
     padding:20px 15%;

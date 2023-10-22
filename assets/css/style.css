@@ -7,10 +7,20 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
-hr {
-    height: 3px;
-    background-color: black;
-    border: #0ef;
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background-color: #e6e7ec;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #e4e7ee;
+    border-radius: 10px;
+    border: 3px solid #f12c10;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ff2600;
 }
 :root{
     --bg-color: #ffffff;

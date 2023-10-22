@@ -505,7 +505,7 @@ span{
     content: '';
     position: absolute;
     inset: 0;
-    background: url(../Assets/img/left-quote.png);
+    /*background: url(../Assets/img/left-quote.png);*/
     background-size: 60px;
     background-position: center;
     background-repeat: no-repeat;
@@ -722,85 +722,100 @@ span{
     font-size: var(--p-font);
 }
 /*-------------------galary-------------------------*/
-.hi-slide {
+.gallery {
     position: relative;
-    width: 754px;
-    height: 292px;
-    border-radius: 50px;
-    margin: 115px auto 0;
-}
-.hi-next,
-    .hi-prev {
-    position: absolute;
-    top: 50%;
-    width: 40px;
-    height: 40px;
-    margin-top: -20px;
-    border-radius: 50px;
-    line-height: 40px;
-    text-align: center;
-    cursor: pointer;
-    background-color: #a09dab;
-    color: white;
-    transition: all 0.7s;
-    font-size: 20px;
-    font-weight: bold;
-
-}
-
-.hi-next:hover,
-.hi-prev:hover {
-    opacity: 1;
-    background-color: #e91e63;
-}
-
-.hi-slide .hi-prev {
-    left: -69px;
-}
-
-.hi-slide .hi-prev::before {
-    content: '<';
-}
-
-.hi-slide .hi-next {
-    right: -69px;
-}
-
-.hi-slide .hi-next::before {
-    content: '>';
-}
-
-.hi-slide>ul {
-    list-style: none;
-    position: relative;
-    width: 754px;
-    height: 292px;
-    margin: 0;
-    padding: 0;
-}
-
-.hi-slide>ul>li {
-    overflow: hidden;
-    position: absolute;
-    z-index: 0;
-    left: 377px;
-    top: 147px;
-    width: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    border: 3px solid white;
-    cursor: pointer;
-    background-color: #333;
-}
-
-.hi-slide>ul>li>img {
+    display: grid;
     width: 100%;
-    height: 100%;
-    background-position: center  ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
-
+.img {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    aspect-ratio: 4/3;
+    gap: 20px;
+    cursor: pointer;
+}
+.img >div{
+    transition-duration: .3s;
+}
+.img:hover >div{
+    scale: 1.2;
+}
+.image1{
+    width: 400px;
+    aspect-ratio: 4/3;
+    background: url("/assets/gallery/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image2{
+    width: 400px;
+    aspect-ratio: 4/3;
+    background: url("/assets/gallery/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image3{
+    width: 400px;
+    aspect-ratio: 4/3;
+    background: url("/assets/gallery/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image4{
+    width: 400px;
+    aspect-ratio: 4/3;
+    background: url("/assets/gallery/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image5{
+    width: 400px;
+    aspect-ratio: 4/3;
+    background: url("/assets/gallery/5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image6{
+    width: 400px;
+    aspect-ratio: 4/3;
+    background: url("/assets/gallery/6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image7{
+    width: 400px;
+    aspect-ratio: 4/3;
+    background: url("/assets/gallery/7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image8{
+    width: 400px;
+    aspect-ratio: 4/3;
+    background: url("/assets/gallery/12.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image9{
+    width: 400px;
+    aspect-ratio: 4/3;
+    background: url("/assets/gallery/9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*-------------contact----------------------*/
 * {
@@ -816,7 +831,7 @@ span{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url("sky.jpg");
+  /*background: url("sky.jpg");*/
     background-size: cover;
 }
 .contact .content{

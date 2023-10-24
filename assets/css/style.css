@@ -264,7 +264,9 @@ span{
     color: #ffffff;
 }
 
+.bxl-facebook{
 
+}
 /*-----------------------------*/
 .btn{
     display: inline-block;
@@ -287,10 +289,21 @@ span{
 }
 
 
+.portfolio{
+    overflow: hidden;
+}
+
+#aboutMe{
+    overflow: hidden;
+}
+#gallery-sec{
+    overflow: hidden;
+}
+
 /*-----------abot-----------*/
 #aboutMe {
     position: relative;
-    background-image:  url("assets/img/pxfue1.png");
+    background:  url("/assets/img/background1.png");
     bottom: 50px;
 }
 .aboutMe{
@@ -766,6 +779,7 @@ span{
     text-align: center;
     cursor: pointer;
 }
+
 .col{
     position: relative;
 }
@@ -823,7 +837,29 @@ span{
     bottom: 48%;
     opacity: 1;
 }
-
+.layer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    position: absolute;
+    width: 100%;
+    font-size:17px;
+    font-weight: 500;
+    color: var(--bg-color);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+}
+.layer:hover a{
+    bottom: 10%;
+    opacity: 1;
+}
+.layer a:hover{
+    color: red;
+}
 .cta-box{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
@@ -857,6 +893,8 @@ span{
 .wrap p{
     font-size: var(--p-font);
 }
+
+
 /*-------------------galary-------------------------*/
 .gallery_hedNAme {
     font-size: 100px;
@@ -1027,6 +1065,19 @@ span{
     padding-top: -290px;
 }
 
+/*---------------------copy  right area --------------------*/
+.copyright-text{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #efd7d7;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright-text a{
+    color: #8d1225;
+}
+
 /*------------------------media quarys-----------------------*/
 @media (max-width: 1670px) {
     .portfolio-content{
@@ -1091,7 +1142,7 @@ span{
     }
 }
 
-@media (max-width: 1425px){
+@media all and (max-width: 1425px){
     header{
         padding: 18px 3%;
         transition: .3s;
@@ -1121,6 +1172,27 @@ span{
     .aboutMe {
         left: 550px;
     }
+    .div-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card1{
+        margin-top: 200px;
+    }
+    .right-div{
+        margin-top: 100px;
+    }
+
+    #aboutMe > .div-wrapper >.right-div >h1:first-child{
+        left: 5px;
+
+    }
+    #aboutMe{
+        background-size: 100%  100%;
+    }
+
 }
 
 @media (max-width: 1350px) {
@@ -1182,7 +1254,15 @@ span{
     }
     .contact {
         padding-left: 10px;
+
     }
+    #contact input , textarea {
+        width: 900px;
+    }
+    .input1 {
+        width: 900px;
+    }
+
 }
 @media (max-width: 970px){
     #menu-icon{

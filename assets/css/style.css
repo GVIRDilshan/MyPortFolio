@@ -1448,6 +1448,13 @@ span{
     }
 }
 @media (max-width: 500px){
+    .home-img{
+        position: relative;
+        text-align: left;
+        padding-top: 500px;
+        padding-left: 400px;
+
+    }
     #contact input , textarea {
         width: 500px;
     }

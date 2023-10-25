@@ -1408,6 +1408,31 @@ span{
         transition: .3s;
     }
 }
+@media (max-width: 790px){
+    #contact input , textarea {
+        width: 700px;
+    }
+    #contact textarea {
+        height: 100px;
+    }
+    .social2 {
+        left: -180px;
+    }
+}
+@media (max-width: 600px){
+    #contact input , textarea {
+        width: 500px;
+    }
+    #contact textarea {
+        height: 100px;
+    }
+    .social2 {
+        left: -260px;
+    }
+    .footer {
+        width: 600px;
+    }
+}
 @media (max-width: 624px){
     .gallery {
         padding-left: 100px;
@@ -1420,5 +1445,19 @@ span{
     }
     .gallery {
         padding-left: 60px;
+    }
+}
+@media (max-width: 500px){
+    #contact input , textarea {
+        width: 500px;
+    }
+    #contact textarea {
+        height: 100px;
+    }
+    .social2 {
+        left: -320px;
+    }
+    .footer {
+        width: 500px;
     }
 }

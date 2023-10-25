@@ -1192,6 +1192,18 @@ span{
     #aboutMe{
         background-size: 100%  100%;
     }
+    .contact {
+        padding: 80px 3%;
+        transition: .2s;
+    }
+
+    .contact .sub-title {
+        font-size: 55px;
+    }
+
+    #contact .contact-left {
+        margin-bottom: 3rem;
+    }
 
 }
 
@@ -1308,8 +1320,21 @@ span{
     .gallery {
         padding-left: 50px;
     }
+    #contact input , textarea {
+        width: 850px;
+    }
 }
-
+@media (max-width: 920px){
+    #contact input , textarea {
+        width: 800px;
+    }
+    .social2 {
+        left: -130px;
+    }
+    .footer {
+      width: 890px;
+    }
+}
 @media (max-width: 850px){
     .home-img{
         text-align: left    ;
@@ -1320,6 +1345,21 @@ span{
     }
     .gallery {
         padding-left: 2px;
+    }
+    #contact input , textarea {
+        width: 750px;
+    }
+    #contact textarea {
+        height: 100px;
+    }
+    .social2 {
+        left: -150px;
+    }
+    .footer {
+        width: 850px;
+    }
+    .contact-btn {
+        display: none;
     }
 }
 @media (max-width: 830px){

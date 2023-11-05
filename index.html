@@ -17,6 +17,11 @@
 </head>
 <body>
 
+<div id="preloader">
+    <div id="preloader-overlayer"></div>
+    <img src="assets/img/GIF.gif" alt="">
+</div>
+
 <header>
     <a href="#" class="logo"><img src="assets/img/IR2.png"></a>
     <div class="bx bx-menu" id="menu-icon"></div>
@@ -417,9 +422,16 @@
 </script>
 <script>
     AOS.init();
+
+    window.onload = () => {
+        $("#preloader").css("display", "none");
+    }
+
+
 </script>
 
 <script>
+
 
     // --------------------------skils and education----------------------------
 

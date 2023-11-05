@@ -25,7 +25,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#aboutMe">About Me</a></li>
         <li><a href="#portfolio">Projects</a></li>
-        <!--<li><a href="#Assignments">Assignments</a></li>-->
+        <li><a href="#Assignments">Assignments</a></li>
         <li><a href="#gallery-sec">Gallery</a></li>
         <li><a href="#contact">Contact Me</a></li>
     </ul>
@@ -92,14 +92,17 @@
     <h4 class="center-subtopic">BIOGRAPHY</h4>
 
     <div class="div-wrapper" >
-        <div class="card1" data-aos="fade-up-right">
-            <div class="lines">
-            </div>
-            <div class="content" >
-                <div class="card-img">
-                    <img src="assets/gallery/About_me.png" alt="hero">
-                </div>
-            </div>
+<!--        <div class="card1" data-aos="fade-up-right">-->
+<!--            <div class="lines">-->
+<!--            </div>-->
+<!--            <div class="content" >-->
+<!--                <div class="card-img">-->
+<!--                    <img src="assets/gallery/About_me.png" alt="hero">-->
+<!--                </div>-->
+<!--            </div>-->
+        <div class="about-me-img-bg" id="about-me-img-bg" data-aos="zoom-in-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
+            <div class="about-me-img" id="about-me-img" ></div>
+        </div>
         </div>
 
         <div class="right-div">
@@ -115,31 +118,29 @@
                 trends in software engineering, I'm always up for a challenge and excited to connect with like-minded professionals.
             </p>
 
-            <div class="tab-titles" data-aos="zoom-out-left">
-                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                <p class="tab-links" onclick="opentab('education')">Education</p>
-                <p class="tab-links" onclick="opentab('sports')">Sports</p>
-
+            <div class="tab-titles" data-aos="fade-left" >
+                <p id="skills-about-me" class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p id="education-about-me" class="tab-links" onclick="opentab('education')">Education</p>
             </div>
 
             <div class="tab-contents active-tab" id="skills" data-aos="fade-up">
-                <ul>
+                <ul id="skills-details">
                     <li><span>Stand-alone</span><br>Java</li>
                     <li><span>Database</span><br>My-SQL</li>
                     <li><span>Web-development</span><br>Html / css / JavaScript</li>
-                    <li><span>Designing</span><br>Photoshop / illustrator / Lightroom / Ae</li>
-                    <li><span>Editing</span><br>Blender / Premeire-Pro / Flash / Figma / canva</li>
-                    <li><span>Game-dev</span><br>unreal-engine</li>
+                    <li><span>Designing</span><br>Photoshop</li>
+                    <li><span>Editing</span><br>Figma / canva</li>
                 </ul>
             </div>
-            <div class="tab-contents " id="experience">
-                <ul>
-                    <li><span>2021 - Current</span><br>Dummy Data</li>
 
-                </ul>
-            </div>
-            <div class="tab-contents  " id="education">
-                <ul>
+<!--            <div class="tab-contents " id="experience">-->
+<!--                <ul>-->
+<!--                    <li><span>2021 - Current</span><br>Dummy Data</li>-->
+
+<!--                </ul>-->
+<!--            </div>-->
+            <div class="tab-contents active-tab" id="education">
+                <ul id="education-details">
                     <li><span>2021</span><br>Awarded Colours for GCE A/L's (Taxila Central College Horana).</li>
                     <li><span>2019</span><br>Completed CERTIFICATE OF COMPUTER APPLICATIONS in Adobe Photoshop and Adobe Flash from NIE's Computer Department.</li>
                     <li><span>2018-2020</span><br>Served as Senior Prefect Guide at Dhamma school.</li>
@@ -214,9 +215,10 @@
     </div>
 </section>
 <!--------------------------Assignments-------------------->
-<!--<section class="Assignments" id="Assignments">
 
-    <h3 data-aos="zoom-out" class="Assignments_text">My Assignments</h3>
+<section class="Assignments" id="Assignments">
+
+    <!--<h3 data-aos="zoom-out" class="Assignments_text">My Assignments</h3>-->
 
     <div class="container">
         <div class="card">
@@ -229,6 +231,11 @@
             <div class="face face2">
                 <div class="content">
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <a href="https://www.facebook.com/profile.php?id=100085218332311&mibextid=LQQJ4d" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
                     <a href="#" type="button">Read More</a>
                 </div>
             </div>
@@ -243,6 +250,11 @@
             <div class="face face2">
                 <div class="content">
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
                     <a href="#" type="button">Read More</a>
                 </div>
             </div>
@@ -260,12 +272,40 @@
                 <div class="content">
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
                     <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
                 </div>
             </div>
         </div>
 
+         <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <i class="fab fa-apple"></i>
+                    <h3>Apple</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                    <a href="#" type="button">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
-</section>-->
+</section>
+
 <!------------------------Galary---------------------------->
 <center><h1 class="gallery_hedNAme">Gallery</h1></center>
 <section id="gallery-sec" class="gallery">
@@ -319,8 +359,8 @@
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
-                        <input  data-aos="fade-left " type="text" name="Name" placeholder="Your Name" required>
-                        <input  data-aos="fade-right" type="email" name="Email" placeholder="Your Email" required>
+                        <input  data-aos="fade-left " type="text" name="Name" placeholder="Your Name" required><br>
+                        <input  data-aos="fade-right" type="email" name="Email" placeholder="Your Email" required><br>
                         <textarea  data-aos="fade-left" name="Message" rows="6" placeholder="Your Message"></textarea>
 
 
@@ -376,6 +416,32 @@
 <script>
     AOS.init();
 </script>
+
+<script>
+
+    // --------------------------skils and education----------------------------
+
+    $("#skills-about-me").on("click" , () => {
+        $("#skills-details").css("display" , "block");
+        $("#education-details").css("display" , "none");
+        $("#skills-about-me").css("border-bottom" , "3px solid red");
+        $("#education-about-me").css("border-bottom" , "unset");
+
+    });
+
+    $("#education-about-me").on("click" , () => {
+        $("#skills-details").css("display" , "none");
+        $("#education-details").css("display" , "block");
+        $("#education-about-me").css("border-bottom" , "3px solid red");
+        $("#skills-about-me").css("border-bottom" , "unset");
+
+    });
+
+    $("#skills-about-me").click();
+
+</script>
+
+
 <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

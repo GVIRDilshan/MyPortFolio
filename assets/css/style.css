@@ -563,6 +563,7 @@ span{
     position: relative;
     left: 300px;
     margin-top: 50px;
+    font-family: cursive;
     font-size: var(--p-font);
     color: var(--secound-color);
     /* font-family: cursive; */

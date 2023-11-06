@@ -17,10 +17,27 @@
 </head>
 <body>
 
-<div id="preloader">
-    <div id="preloader-overlayer"></div>
-    <img src="assets/img/GIF.gif" alt="">
+<!--<div id="preloader">-->
+<!--    <div id="preloader-overlayer"></div>-->
+<!--    <img src="assets/img/GIF.gif" alt="">-->
+<!--</div>-->
+
+<div class="loader">
+    <div>
+        <div class="slider" style="--i:0">
+        </div>
+        <div class="slider" style="--i:1">
+        </div>
+        <div class="slider" style="--i:2">
+        </div>
+        <div class="slider" style="--i:3">
+        </div>
+        <div class="slider" style="--i:4">
+        </div>
+    </div>
+    <div id="pre-loader-bg"></div>
 </div>
+
 
 <header>
     <a href="#" class="logo"><img src="assets/img/IR2.png"></a>
@@ -37,16 +54,15 @@
 </header>
 
 
-
-
 <!---------------------home----------------->
 <section class="home" id="home">
     <div class="home-text">
         <h3 data-aos="fade-down-right">Hello, I'm</h3>
         <h2 data-aos="fade-down-right"> Ishan Ravidu</h2>
-        <h3 data-aos="fade-down-right"> Professional<span id="role">  Full-stack Developer</span> </h3>
+        <h3 data-aos="fade-down-right"> Professional<span id="role">  Full-stack Developer</span></h3>
 
-        <p data-aos="fade-down-right"> i’m a Full Stack Deleloper in Sri Lanka and very passionate  and dedicated to my work</p>
+        <p data-aos="fade-down-right"> i’m a Full Stack Deleloper in Sri Lanka and very passionate and dedicated to my
+            work</p>
 
         <a href="#" class="btn" data-aos="flip-left">Download CV</a>
 
@@ -55,32 +71,32 @@
 
                 <li class="icon facebook">
                     <a href="https://www.facebook.com/profile.php?id=100085218332311&mibextid=LQQJ4d">
-                    <span class="tooltip">Facebook</span>
-                    <span style="color: white"><i class='bx bxl-facebook'></i></span>
+                        <span class="tooltip">Facebook</span>
+                        <span style="color: white"><i class='bx bxl-facebook'></i></span>
                     </a>
                 </li>
                 <li class="icon twitter">
                     <a href="https://twitter.com/ravidu_ishan">
-                    <span class="tooltip">Twitter</span>
-                    <span style="color: white"><i class='bx bxl-twitter' ></i></span>
+                        <span class="tooltip">Twitter</span>
+                        <span style="color: white"><i class='bx bxl-twitter'></i></span>
                     </a>
                 </li>
                 <li class="icon instagram">
                     <a href="https://www.instagram.com/ishan_ravidu_/">
-                    <span class="tooltip">Instagram</span>
-                    <span style="color: white"><i class='bx bxl-instagram' ></i></span>
+                        <span class="tooltip">Instagram</span>
+                        <span style="color: white"><i class='bx bxl-instagram'></i></span>
                     </a>
                 </li>
                 <li class="icon github">
                     <a href="https://github.com/GVIRDilshan">
-                    <span class="tooltip">Github</span>
-                    <span style="color: white"><i class='bx bxl-github' ></i></span>
+                        <span class="tooltip">Github</span>
+                        <span style="color: white"><i class='bx bxl-github'></i></span>
                     </a>
                 </li>
                 <li class="icon youtube">
                     <a href="https://www.linkedin.com/in/ishan-ravidu-899603268/">
-                    <span class="tooltip">Linkedin</span>
-                    <span style="color: white"  ><i class='bx bxl-linkedin'></i></span>
+                        <span class="tooltip">Linkedin</span>
+                        <span style="color: white"><i class='bx bxl-linkedin'></i></span>
                     </a>
                 </li>
             </ul>
@@ -96,84 +112,98 @@
     <center><h2 style="font-size: 40px" >AboutMe</h2></center>-->
     <h4 class="center-subtopic">BIOGRAPHY</h4>
 
-    <div class="div-wrapper" >
-<!--        <div class="card1" data-aos="fade-up-right">-->
-<!--            <div class="lines">-->
-<!--            </div>-->
-<!--            <div class="content" >-->
-<!--                <div class="card-img">-->
-<!--                    <img src="assets/gallery/About_me.png" alt="hero">-->
-<!--                </div>-->
-<!--            </div>-->
-        <div class="about-me-img-bg" id="about-me-img-bg" data-aos="zoom-in-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
-            <div class="about-me-img" id="about-me-img" ></div>
-        </div>
-        </div>
-
-        <div class="right-div">
-            <h1 data-aos="zoom-out">Who am I <span class="cyan">?</span><br>
-                <div class="first-line"></div>
-                <div class="second-line"></div>
-            </h1>
-
-
-            <p data-aos="zoom-out-left">As a passionate software engineering student, I specialize in Java and am constantly seeking opportunities to expand
-                my knowledge and skills. With a commitment to using technology to make a positive impact on society, I believe in pushing
-                myself to grow and improve as a developer. Whether you're interested in collaborating on a project or discussing the latest
-                trends in software engineering, I'm always up for a challenge and excited to connect with like-minded professionals.
-            </p>
-
-            <div class="tab-titles" data-aos="fade-left" >
-                <p id="skills-about-me" class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                <p id="education-about-me" class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
-
-            <div class="tab-contents active-tab" id="skills" data-aos="fade-up">
-                <ul id="skills-details">
-                    <li><span>Stand-alone</span><br>Java</li>
-                    <li><span>Database</span><br>My-SQL</li>
-                    <li><span>Web-development</span><br>Html / css / JavaScript</li>
-                    <li><span>Designing</span><br>Photoshop</li>
-                    <li><span>Editing</span><br>Figma / canva</li>
-                </ul>
-            </div>
-
-<!--            <div class="tab-contents " id="experience">-->
-<!--                <ul>-->
-<!--                    <li><span>2021 - Current</span><br>Dummy Data</li>-->
-
-<!--                </ul>-->
-<!--            </div>-->
-            <div class="tab-contents active-tab" id="education">
-                <ul id="education-details">
-                    <li><span>2021</span><br>Awarded Colours for GCE A/L's (Taxila Central College Horana).</li>
-                    <li><span>2019</span><br>Completed CERTIFICATE OF COMPUTER APPLICATIONS in Adobe Photoshop and Adobe Flash from NIE's Computer Department.</li>
-                    <li><span>2018-2020</span><br>Served as Senior Prefect Guide at Dhamma school.</li>
-                    <li><span>2018</span><br>Awarded Colours for GCE O/L's (Bandaragama Central College).</li>
-                    <li><span>2017-2018</span><br>Served as Senior Prefect Guide at Bandaragama Central College.</li>
-                    <li><span>2013-2015</span><br>Completed Pan America GojuRyu Karatedo Systems Diploma as a 1<sup>st</sup> Dan Black Belt.</li>
-                    <li><span>2012</span><br>Completed a NIE Computer Department course leading to a Certificate of Computer Applications, covering Paint, Word, Excel, PowerPoint, Access, Internet & Email.</li>
-                    <li><span>2012</span><br>Awarded Colours for grade 5 Scholars(Bandaragama Central College).</li>
-                </ul>
-            </div>
+    <div class="div-wrapper">
+        <!--        <div class="card1" data-aos="fade-up-right">-->
+        <!--            <div class="lines">-->
+        <!--            </div>-->
+        <!--            <div class="content" >-->
+        <!--                <div class="card-img">-->
+        <!--                    <img src="assets/gallery/About_me.png" alt="hero">-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <div class="about-me-img-bg" id="about-me-img-bg" data-aos="zoom-in-right" data-aos-offset="100"
+             data-aos-easing="ease-in-sine">
+            <div class="about-me-img" id="about-me-img"></div>
         </div>
     </div>
+
+    <div class="right-div">
+        <h1 data-aos="zoom-out">Who am I <span class="cyan">?</span><br>
+            <div class="first-line"></div>
+            <div class="second-line"></div>
+        </h1>
+
+
+        <p data-aos="zoom-out-left">As a passionate software engineering student, I specialize in Java and am constantly
+            seeking opportunities to expand
+            my knowledge and skills. With a commitment to using technology to make a positive impact on society, I
+            believe in pushing
+            myself to grow and improve as a developer. Whether you're interested in collaborating on a project or
+            discussing the latest
+            trends in software engineering, I'm always up for a challenge and excited to connect with like-minded
+            professionals.
+        </p>
+
+        <div class="tab-titles" data-aos="fade-left">
+            <p id="skills-about-me" class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p id="education-about-me" class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills" data-aos="fade-up">
+            <ul id="skills-details">
+                <li><span>Stand-alone</span><br>Java</li>
+                <li><span>Database</span><br>My-SQL</li>
+                <li><span>Web-development</span><br>Html / css / JavaScript</li>
+                <li><span>Designing</span><br>Photoshop</li>
+                <li><span>Editing</span><br>Figma / canva</li>
+            </ul>
+        </div>
+
+        <!--            <div class="tab-contents " id="experience">-->
+        <!--                <ul>-->
+        <!--                    <li><span>2021 - Current</span><br>Dummy Data</li>-->
+
+        <!--                </ul>-->
+        <!--            </div>-->
+        <div class="tab-contents active-tab" id="education">
+            <ul id="education-details">
+                <li><span>2021</span><br>Awarded Colours for GCE A/L's (Taxila Central College Horana).</li>
+                <li><span>2019</span><br>Completed CERTIFICATE OF COMPUTER APPLICATIONS in Adobe Photoshop and Adobe
+                    Flash from NIE's Computer Department.
+                </li>
+                <li><span>2018-2020</span><br>Served as Senior Prefect Guide at Dhamma school.</li>
+                <li><span>2018</span><br>Awarded Colours for GCE O/L's (Bandaragama Central College).</li>
+                <li><span>2017-2018</span><br>Served as Senior Prefect Guide at Bandaragama Central College.</li>
+                <li><span>2013-2015</span><br>Completed Pan America GojuRyu Karatedo Systems Diploma as a 1<sup>st</sup>
+                    Dan Black Belt.
+                </li>
+                <li><span>2012</span><br>Completed a NIE Computer Department course leading to a Certificate of Computer
+                    Applications, covering Paint, Word, Excel, PowerPoint, Access, Internet & Email.
+                </li>
+                <li><span>2012</span><br>Awarded Colours for grade 5 Scholars(Bandaragama Central College).</li>
+            </ul>
+        </div>
+    </div>
+</div>
 </div>
 
 <hr>
 <!--////////////////////////////////////Projects/////////////////////////////////-->
 <section class="portfolio" id="portfolio">
     <div class="heading">
-        <h3 data-aos="zoom-in-right" >My Amazing Projects</h3>
+        <h3 data-aos="zoom-in-right">My Amazing Projects</h3>
     </div>
 
     <div class="portfolio-content">
         <div class="col" data-aos="fade-right">
             <img src="assets/img/library_pic.jpg">
             <div class="layer">
-                <h3>Web Design</h3>
-                <a href="https://www.pornhub.com" target="_blank">Github <i class='bx bx-link-external'></i></a>
-                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
+                <h3>My First_Project</h3>
+                <a href="https://github.com/GVIRDilshan/LibraryManagementSystem-MVC" target="_blank">Github <i
+                        class='bx bx-link-external'></i></a>
+                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design
+                    that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check
+                    it out for yourself and see what sets my animated profile card apart!</h5>
             </div>
         </div>
 
@@ -181,7 +211,11 @@
             <img src="assets/img/Aqu.jpg">
             <div class="layer">
                 <h3>Web Design</h3>
-                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
+                <a href="https://github.com/Matrix-in/Soysa-Aquarium" target="_blank">Github <i
+                        class='bx bx-link-external'></i></a>
+                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design
+                    that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check
+                    it out for yourself and see what sets my animated profile card apart!</h5>
             </div>
         </div>
 
@@ -189,7 +223,11 @@
             <img src="assets/img/login_-_fitness_management.png">
             <div class="layer">
                 <h3>Animated Profile card</h3>
-                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
+                <a href="https://github.com/GVIRDilshan/LibraryManagementSystem-MVC" target="_blank">Github <i
+                        class='bx bx-link-external'></i></a>
+                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design
+                    that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check
+                    it out for yourself and see what sets my animated profile card apart!</h5>
             </div>
         </div>
 
@@ -197,25 +235,29 @@
             <img src="assets/img/student-login-form.jpg">
             <div class="layer">
                 <h3>Animated Profile card</h3>
-                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
+                <a href="https://github.com/GVIRDilshan/Hibernate-ORM-Coursework" target="_blank">Github <i
+                        class='bx bx-link-external'></i></a>
+                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design
+                    that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check
+                    it out for yourself and see what sets my animated profile card apart!</h5>
             </div>
         </div>
 
-<!--        <div class="col" data-aos="fade-right">
-            <img src="assets/img/login_-_fitness_management.png">
-            <div class="layer">
-                <h3>Animated Profile card</h3>
-                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
-            </div>
-        </div>
+        <!--        <div class="col" data-aos="fade-right">
+                    <img src="assets/img/login_-_fitness_management.png">
+                    <div class="layer">
+                        <h3>Animated Profile card</h3>
+                        <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
+                    </div>
+                </div>
 
-        <div class="col" data-aos="fade-left">
-            <img src="assets/img/student-login-form.jpg">
-            <div class="layer">
-                <h3>Animated Profile card</h3>
-                <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
-            </div>
-        </div>-->
+                <div class="col" data-aos="fade-left">
+                    <img src="assets/img/student-login-form.jpg">
+                    <div class="layer">
+                        <h3>Animated Profile card</h3>
+                        <h5>My animated profile card, created using HTML and CSS, is a visually stunning and interactive design that showcases my skills and experience. With its modern layout and eye-catching animations. <br>Check it out for yourself and see what sets my animated profile card apart!</h5>
+                    </div>
+                </div>-->
 
     </div>
 </section>
@@ -226,17 +268,21 @@
     <!--<h3 data-aos="zoom-out" class="Assignments_text">My Assignments</h3>-->
 
     <div class="container">
-        <div class="card">
+        <div class="card" data-aos="flip-right"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="3000">
             <div class="face face1">
                 <div class="content">
-                   <!-- <i class="fab fa-windows"></i>-->
+                    <!-- <i class="fab fa-windows"></i>-->
                     <i class='bx bxs-file-css'></i>
                     <h3>CSS_Assignments 01</h3>
                 </div>
             </div>
             <div class="face face2">
                 <div class="content">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo
+                        voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae
+                        fugiat aspernatur alias corporis?</p>
                     <a href="assets/assignments/CSS_Assignment1/01_case/index.html" type="button">case_01</a>
                     <a href="assets/assignments/CSS_Assignment1/02_case/index.html" type="button">case_02</a>
                     <a href="assets/assignments/CSS_Assignment1/03_case/index.html" type="button">case_03</a>
@@ -247,7 +293,9 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="3000">
             <div class="face face1">
                 <div class="content">
                     <i class='bx bxs-file-css'></i>
@@ -256,7 +304,9 @@
             </div>
             <div class="face face2">
                 <div class="content">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo
+                        voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae
+                        fugiat aspernatur alias corporis?</p>
                     <a href="assets/assignments/CSS_Assignment4/src/case1/case1_index.html" type="button">case_01</a>
                     <a href="assets/assignments/CSS_Assignment4/src/case2/index.html" type="button">case_02</a>
                     <a href="assets/assignments/CSS_Assignment4/src/case3/index.html" type="button">case_03</a>
@@ -268,7 +318,9 @@
         </div>
 
 
-        <div class="card">
+        <div class="card" data-aos="flip-right"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="3000">
             <div class="face face1">
                 <div class="content">
                     <i class='bx bxs-file-css'></i>
@@ -277,7 +329,9 @@
             </div>
             <div class="face face2">
                 <div class="content">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo
+                        voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae
+                        fugiat aspernatur alias corporis?</p>
                     <a href="assets/assignments/CSS_Assignment4/src/case7/night_rider_color_bar.html" type="button">case_01</a>
                     <a href="assets/assignments/CSS_Assignment1/02_case/index.html" type="button">case_02</a>
                     <a href="assets/assignments/CSS_Assignment1/03_case/index.html" type="button">case_03</a>
@@ -288,7 +342,9 @@
             </div>
         </div>
 
-         <div class="card">
+        <div class="card" data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="3000">
             <div class="face face1">
                 <div class="content">
                     <i class='bx bxs-file-css'></i>
@@ -297,7 +353,9 @@
             </div>
             <div class="face face2">
                 <div class="content">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo
+                        voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae
+                        fugiat aspernatur alias corporis?</p>
                     <a href="assets/assignments/CSS_Assignment1/01_case/index.html" type="button">case_01</a>
                     <a href="assets/assignments/CSS_Assignment1/02_case/index.html" type="button">case_02</a>
                     <a href="assets/assignments/CSS_Assignment1/03_case/index.html" type="button">case_03</a>
@@ -307,7 +365,6 @@
                 </div>
             </div>
         </div>
-
 
 
     </div>
@@ -349,66 +406,121 @@
 
 <!------------------------Contact------------------------>
 
-<section class="contact contact-section" >
+<section class="contact contact-section">
+
+    <!--    <div class="contact" id="contact">-->
+    <!--        <div class="container">-->
+    <!--            <div class="row">-->
+    <!--                <div class="contact-left">-->
+    <!--                    <h1 data-aos="zoom-out-up" class="sub-title">Contact <span>Me</span></h1>-->
+    <!--                    <p data-aos="fade-left"-->
+    <!--                       data-aos-easing="linear"-->
+    <!--                       data-aos-duration="1700"><i class='bx bx-send'> E-mail</i> ishanravidu975@gmail.com</p>-->
+    <!--                    <p data-aos="fade-right"-->
+    <!--                       data-aos-easing="linear"-->
+    <!--                       data-aos-duration="1700"><i class='bx bx-phone'> Contact_Number</i> 0711125246</p>-->
+
+    <!--                </div>-->
+    <!--                <div class="contact-right">-->
+    <!--                    <form name="submit-to-google-sheet">-->
+    <!--                        <input data-aos="fade-left " type="text" name="Name" placeholder="Your Name" required><br>-->
+    <!--                        <input data-aos="fade-right" type="email" name="Email" placeholder="Your Email" required><br>-->
+    <!--                        <textarea data-aos="fade-left" name="Message" rows="6" placeholder="Your Message"></textarea>-->
+
+
+    <!--                        <input data-aos="flip-up" type="submit" name="" value="Submit" class="contact-btn">-->
+
+    <!--                        <div class="social2">-->
+    <!--                            <ul class="wrapper">-->
+    <!--                                <li class="icon facebook">-->
+    <!--                                    <span class="tooltip">Facebook</span>-->
+    <!--                                    <span style="color: white"><i class='bx bxl-facebook'></i></span>-->
+    <!--                                </li>-->
+    <!--                                <li class="icon twitter">-->
+    <!--                                    <span class="tooltip">Twitter</span>-->
+    <!--                                    <span style="color: white"><i class='bx bxl-twitter'></i></span>-->
+    <!--                                </li>-->
+    <!--                                <li class="icon instagram">-->
+    <!--                                    <span class="tooltip">Instagram</span>-->
+    <!--                                    <span style="color: white"><i class='bx bxl-instagram'></i></span>-->
+    <!--                                </li>-->
+    <!--                                <li class="icon github">-->
+    <!--                                    <span class="tooltip">Github</span>-->
+    <!--                                    <span style="color: white"><i class='bx bxl-github'></i></span>-->
+    <!--                                </li>-->
+    <!--                                <li class="icon youtube">-->
+    <!--                                    <span class="tooltip">Linkedin</span>-->
+    <!--                                    <span style="color: white"><i class='bx bxl-linkedin'></i></span>-->
+    <!--                                </li>-->
+    <!--                            </ul>-->
+    <!--                        </div>-->
+    <!--                    </form>-->
+
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+
 
     <div class="contact" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 data-aos="zoom-out-up" class="sub-title">Contact <span>Me</span></h1>
-                    <p data-aos="fade-left"
-                       data-aos-easing="linear"
-                       data-aos-duration="1700"> <i class='bx bx-send'> E-mail</i> ishanravidu975@gmail.com</p>
-                    <p data-aos="fade-right"
-                       data-aos-easing="linear"
-                       data-aos-duration="1700" ><i class='bx bx-phone'> Contact_Number</i> 0711125246</p>
+        <div class="row">
+            <div class="contact-left">
+                <h1 data-aos="zoom-out-up" class="sub-title">Contact <span>Me</span></h1>
+                <p data-aos="fade-left"
+                   data-aos-easing="linear"
+                   data-aos-duration="1700"><i class='bx bx-send'> E-mail</i> ishanravidu975@gmail.com</p>
+                <p data-aos="fade-right"
+                   data-aos-easing="linear"
+                   data-aos-duration="1700"><i class='bx bx-phone'> Contact_Number</i> 0711125246</p>
 
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input  data-aos="fade-left " type="text" name="Name" placeholder="Your Name" required><br>
-                        <input  data-aos="fade-right" type="email" name="Email" placeholder="Your Email" required><br>
-                        <textarea  data-aos="fade-left" name="Message" rows="6" placeholder="Your Message"></textarea>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input data-aos="fade-left " type="text" name="Name" placeholder="Your Name" required><br>
+                    <input data-aos="fade-right" type="email" name="Email" placeholder="Your Email" required><br>
+                    <textarea data-aos="fade-left" name="Message" rows="6" placeholder="Your Message"></textarea>
 
 
-                <input  data-aos="flip-up" type="submit" name="" value="Submit" class="contact-btn">
+                    <input data-aos="flip-up" type="submit" name="" value="Submit" class="contact-btn">
 
-                        <div class="social2">
-                            <ul class="wrapper">
-                                <li class="icon facebook" >
-                                    <span class="tooltip">Facebook</span>
-                                    <span style="color: white"><i class='bx bxl-facebook'></i></span>
-                                </li>
-                                <li class="icon twitter">
-                                    <span class="tooltip">Twitter</span>
-                                    <span style="color: white"><i class='bx bxl-twitter' ></i></span>
-                                </li>
-                                <li class="icon instagram">
-                                    <span class="tooltip">Instagram</span>
-                                    <span style="color: white"><i class='bx bxl-instagram' ></i></span>
-                                </li>
-                                <li class="icon github">
-                                    <span class="tooltip">Github</span>
-                                    <span style="color: white"><i class='bx bxl-github' ></i></span>
-                                </li>
-                                <li class="icon youtube">
-                                    <span class="tooltip">Linkedin</span>
-                                    <span style="color: white"  ><i class='bx bxl-linkedin'></i></span>
-                                </li>
-                            </ul>
-                        </div>
-                    </form>
+                    <div class="social2">
+                        <ul class="wrapper">
+                            <li class="icon facebook">
+                                <span class="tooltip">Facebook</span>
+                                <span style="color: white"><i class='bx bxl-facebook'></i></span>
+                            </li>
+                            <li class="icon twitter">
+                                <span class="tooltip">Twitter</span>
+                                <span style="color: white"><i class='bx bxl-twitter'></i></span>
+                            </li>
+                            <li class="icon instagram">
+                                <span class="tooltip">Instagram</span>
+                                <span style="color: white"><i class='bx bxl-instagram'></i></span>
+                            </li>
+                            <li class="icon github">
+                                <span class="tooltip">Github</span>
+                                <span style="color: white"><i class='bx bxl-github'></i></span>
+                            </li>
+                            <li class="icon youtube">
+                                <span class="tooltip">Linkedin</span>
+                                <span style="color: white"><i class='bx bxl-linkedin'></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
 
-                </div>
             </div>
         </div>
     </div>
+
+
 </section>
 <footer>
     <div class="footer">
         <div class="copyright-area">
             <div class="copyright-text">
-                <p>Copyright © 2023 All rights reserved || Designed By: <a href="https://instagram.com/ishan_ravidu_">Ishan Ravidu</a></p>
+                <p>Copyright © 2023 All rights reserved || Designed By: <a href="https://instagram.com/ishan_ravidu_">Ishan
+                    Ravidu</a></p>
             </div>
         </div>
     </div>
@@ -424,7 +536,14 @@
     AOS.init();
 
     window.onload = () => {
-        $("#preloader").css("display", "none");
+        $(".loader > div:first-child").css("display", "none");
+        $(".loader > div:nth-child(2)").css("backdrop-filter", "blur(0px)");
+
+        setTimeout(pre_loader_hide, 1100);
+    }
+
+    function pre_loader_hide() {
+        $(".loader").css("display", "none");
     }
 
 
@@ -435,19 +554,19 @@
 
     // --------------------------skils and education----------------------------
 
-    $("#skills-about-me").on("click" , () => {
-        $("#skills-details").css("display" , "block");
-        $("#education-details").css("display" , "none");
-        $("#skills-about-me").css("border-bottom" , "3px solid red");
-        $("#education-about-me").css("border-bottom" , "unset");
+    $("#skills-about-me").on("click", () => {
+        $("#skills-details").css("display", "block");
+        $("#education-details").css("display", "none");
+        $("#skills-about-me").css("border-bottom", "3px solid red");
+        $("#education-about-me").css("border-bottom", "unset");
 
     });
 
-    $("#education-about-me").on("click" , () => {
-        $("#skills-details").css("display" , "none");
-        $("#education-details").css("display" , "block");
-        $("#education-about-me").css("border-bottom" , "3px solid red");
-        $("#skills-about-me").css("border-bottom" , "unset");
+    $("#education-about-me").on("click", () => {
+        $("#skills-details").css("display", "none");
+        $("#education-details").css("display", "block");
+        $("#education-about-me").css("border-bottom", "3px solid red");
+        $("#skills-about-me").css("border-bottom", "unset");
 
     });
 

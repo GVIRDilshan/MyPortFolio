@@ -912,7 +912,14 @@ span{
 }
 
 /*--------------------Projects--------------------*/
-
+#portfolio {
+    position: relative;
+    background:  url("/assets/img/p.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+    height: 100%;
+}
 .heading{
     text-align: center;
 }
@@ -1161,6 +1168,12 @@ span{
 
 /*-------------contact----------------------*/
 #contact{
+    position: relative;
+    background:  url("/assets/img/s.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+    height: 100%;
     padding: 0px 5%;
 }
 #contact .sub-title{
@@ -1193,7 +1206,7 @@ span{
     padding: 17px;
     border: none;
     outline: none;
-    background: #e3d5d5;
+    background: #d0b1b1;
     color: #230404;
     font-size: 1.1rem;
     margin-bottom: 0.7rem;

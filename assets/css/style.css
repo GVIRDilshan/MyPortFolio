@@ -32,7 +32,7 @@
     --p-font: 1.6rem;
     --titles-color : #314163;
     --subtitles-color : #7284A6;
-    --secondary-color : #fd001e;
+    --secondary-color : #8673E8;
     --body-color: #FFFEFE;
 }
 body{
@@ -3184,5 +3184,3 @@ span{
     background: var(--body-color);
     transition: 1s;
 }
-
-
